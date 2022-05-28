@@ -16,13 +16,10 @@
         <p> TheDesignProject <br> <span>by a WebDesigner</span> </p>
     </div>
  </header>
-
+<!-- =================================== -->
  <main>
-     <section class="HowTo">
-        <div>
-            <img src="./Bilder/ilustracion1.png" alt="blauer Hintergrund">
-            <img src="./Bilder/ilustracion_people.png" alt="Mann in freiem Fall">
-        </div>
+     <section class="howTo">
+        
         <div>
             <h1>How to become a better designer?
             </h1>
@@ -30,64 +27,80 @@
             </p>
             <p>SCROLL TO SEE MORE —</p>
         </div>
+        <div>
+            <img id="hintergrund" src="./Bilder/ilustracion1.png" alt="blauer Hintergrund">
+            <img src="./Bilder/ilustracion_people.png" alt="Mann in freiem Fall">
+        </div>
      </section>
 
      <section class="Bildkonglomerat">
         <img src="./Bilder/images.jpg" alt="Aulistung von Bilder">
      
-    </section class=everyIdea>
-        <div>
-            <h2>Every idea</h2>
-            <img src="./Bilder/idea.png" alt="">
-        </div>
-        <div>
-            <h2>starts with a need
-        </h2>
-        </div>
-        <div>
-            <p>Earlier this year (January 2018). I started to think about how I could improve my design skills and attract more
-            customers. I wanted to start designing some ideas that for a long time I had only on paper and stored on my cell phone,
-            I decided to look for some challenge, something that makes more sense with what I thought. I saw that many designers
-            (especially in dribbble) made a daily user interface, I really liked the idea, but the problem was that the result was
-            just something nice and did not solve any problem.
-            </p>
-        </div>
+        <!-- ============everyIdea======== -->
 
+    </section class=everyIdea>
+        <div class="containerEveryIdea">
+            <div class="s3left">
+                <div>
+                    <h2>Every idea</h2>
+                    <img src="./Bilder/idea.png" alt="Glühbirne">
+                </div>
+                <div>
+                    <h2>starts with a need
+                    </h2>
+                </div>
+            </div>
+            <div class="s3reight">
+                <p>Earlier this year (January 2018). I started to think about how I could improve my design skills and attract more
+                customers. I wanted to start designing some ideas that for a long time I had only on paper and stored on my cell phone,
+                I decided to look for some challenge, something that makes more sense with what I thought. I saw that many designers
+                (especially in dribbble) made a daily user interface, I really liked the idea, but the problem was that the result was
+                just something nice and did not solve any problem.
+                </p>
+            </div>
+        </div>
+<!-- =============section afterSeveral=========== -->
         <section class="afterSevereal">
-            <div>
-                <h2>fter several weeks of sticking to this challenge, I learned a lot
+            <div id="ueberschriftAfter">
+                <h2>After several weeks of sticking to this challenge, I learned a lot
                 </h2>
             </div>
-            <div>
-                <img src="./Bilder/title02.svg" alt="Glübirne gelb">
-                <h3>Start with asking why</h3>
-                <p>
-                You will start seeing things differently and coming up with more effective ways of achieving goals.
-                </p>
+            <div class="ausrichtung1-2">
+                <div class="ol">
+                    <img class="icon" src="./Bilder/title02.svg" alt="Glübirne gelb">
+                    <h3>Start with asking why</h3>
+                </div>
+                <div class="oltext">
+                    <p>
+                    You will start seeing things differently and coming up with more effective ways of achieving goals.
+                    </p>
+                </div>
+                <div>
+                    <img class="icon" src="./Bilder/title04.svg" alt="Teilen grün">
+                    <h3>Your ideas will have more value</h3>
+                    <p>
+                    By looking at problems from a different perspective, your ideas will be fresher and more valuable.
+                    </p>
+                </div>
             </div>
-            <div>
-                <img src="./Bilder/title04.svg" alt="Teilen grün">
-                <h3>Your ideas will have more value</h3>
-                <p>
-                By looking at problems from a different perspective, your ideas will be fresher and more valuable.
-                </p>
-            </div>
-            <div>
-                <img src="./Bilder/title01.svg" alt="Herz blau">
-                <h3>Design solutions with love</h3>
-                <p>
-                Only when you experience a problem yourself do you understand the frustration of the users and resolve to end it.
-                </p>
-            </div>
-            <div>
-                <img src="./Bilder/title03.svg" alt="Stift rot">
-                <h3>Share and show your work</h3>
-                <p>As designers, we are often afraid of showing work that’s not finished or doesn’t look perfect. You will learn to accept
-                feedback and learn from it.
-                </p>
+            <div class="ausrichtung3-4">
+                    <img class="icon" src="./Bilder/title01.svg" alt="Herz blau">
+                    <h3>Design solutions with love</h3>
+                    <p>
+                    Only when you experience a problem yourself do you understand the frustration of the users and resolve to end it.
+                    </p>
+                </div>
+                <div>
+                    <img class="icon" src="./Bilder/title03.svg" alt="Stift rot">
+                    <h3>Share and show your work</h3>
+                    <p>As designers, we are often afraid of showing work that’s not finished or doesn’t look perfect. You will learn to accept
+                    feedback and learn from it.
+                    </p>
+                </div>
             </div>
         </section>
-        
+       
+<!-- ============================Section======= -->
       
         <section>
             <h2>Are you ready? Let’s go!!</h2>
@@ -96,7 +109,7 @@
             facing and show the result to the community.
             </p>
         </section>
-
+<!-- =================01==================== -->
         <section class="01">
             <div>
                 <img src="./Bilder/step01.png" alt="Step One">
@@ -161,23 +174,18 @@
             <h2>Do you like this challenge?</h2>
             <p>Subscribe to be the first to hear about updates, tips and recommendations!</p>
             <form action="Beispiel-URL" method="post">
-                <input type="Email" id="Email" placeholder="Write your email here">
+                <input type="Email" id="Email" placeholder="    Write your email here" style="border:0 ;">
             </form>
             <button>subscribe</button>
         </section>
 
  </main>
  <footer>
-     <p>Created with love by a Webdisigner</p>
-     <img src="./Bilder/love.png" alt="Herz">
+    <div>
+        <p>Created with love by a Webdisigner</p>
+        <img src="./Bilder/love.png" alt="Herz">
+    </div>
  </footer>
  
-
-
-    
-
-
-
-
 </body>
 </html>
